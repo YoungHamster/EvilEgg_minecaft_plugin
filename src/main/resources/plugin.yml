@@ -1,0 +1,7 @@
+name: EvilEgg
+version: ${project.version}
+main: com.vikotrx.evilegg.evilegg.EvilEgg
+api-version: 1.16
+authors: [ ViktorX ]
+description: Plugin that adds evil mind controlling red egg, like the one on the Dream SMP, check out my youtube if you like it https://www.youtube.com/channel/UCEGvYjlyK5iOrZlyq7n27sg
+website: https://www.youtube.com/channel/UCEGvYjlyK5iOrZlyq7n27sg
