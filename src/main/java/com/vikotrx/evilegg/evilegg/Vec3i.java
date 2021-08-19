@@ -30,4 +30,27 @@ public class Vec3i {
                 (y - vec.y)*(y - vec.y) +
                 (z - vec.z)*(z - vec.z));
     }
+
+    public String getString()
+    {
+        return "x: " + x + "y: " + y + "z: " + z;
+    }
+
+    @Override
+    public int hashCode()
+    {
+        return x + y + z;
+    }
+
+    @Override
+    public boolean equals(Object vec)
+    {
+        if(!(vec instanceof Vec3i)) try {
+            throw new Exception();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        Vec3i vec3i = (Vec3i) vec;
+        return this.x == vec3i.x && this.y == vec3i.y && this.z == vec3i.z;
+    }
 }

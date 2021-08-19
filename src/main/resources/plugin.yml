@@ -5,3 +5,25 @@ api-version: 1.16
 authors: [ ViktorX ]
 description: Plugin that adds evil mind controlling red egg, like the one on the Dream SMP, check out my youtube if you like it https://www.youtube.com/channel/UCEGvYjlyK5iOrZlyq7n27sg
 website: https://www.youtube.com/channel/UCEGvYjlyK5iOrZlyq7n27sg
+commands:
+  ke:
+    description: Kills all eggs
+    usage: /<command>
+  pe:
+    description: Pauses all eggs
+    usage: /<command>
+  ue:
+    description: Unpauses all eggs
+    usage: /<command>
+  ges:
+    description: Prints energy stats for all eggs
+    usage: /<command>
+  gaes:
+    description: Prints egg stats
+    usage: /<command>
+  showebs:
+    description: Shows blocks with non zero egg energy
+    usage: /<command>
+  hideebs:
+    description: Hides blocks with non zero egg energy
+    usage: /<command>
